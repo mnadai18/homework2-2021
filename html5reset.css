@@ -1,0 +1,155 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+span, object, iframe,
+h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+h1 {
+    padding: 10;
+    font-size: 64;
+    text-align: center;
+}
+h2{
+    font-size: 32;
+    text-shadow: 4px 4px 2px #808080;
+}
+p {
+    font-size: 24;
+    padding-top: 15px;
+}
+img {
+    max-width: 550px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+div {
+    padding: 25px;
+    min-height: 150px;
+}
+#red {
+    background-color: #ff0000;
+    text-align: right;
+}
+#blue {
+    text-align: left;
+    background-color: #0000FF;
+}
+#yellow {
+    background-color: #FFFF00;
+    text-align: right;
+}
+#yellow h2 {
+    color:#000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+#yellow p {
+    color : #000000;
+}
+#green{
+    text-align: left;
+    background-color: #00FF00;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+footer p {
+    text-align: center;
+    padding-bottom: 10;
+    padding-right: 10;
+}
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
